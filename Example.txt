@@ -1,0 +1,76 @@
+Create User
+
+URL
+http://localhost:8080/createUser
+
+Method - Post
+
+Request Body
+
+{ 
+	
+"firstName": "Ashay",
+"middleName": "R",
+"lastName": "Rajimwale",
+"age": 30,
+"gender": "M",
+"phoneNumber": "6825610162",
+"zip": "76013"}
+
+Response
+
+{
+"id": "7c835373-d03d-473e-8761-b6113c63a0e4",
+"firstName": "Ashay",
+"middleName": "R",
+"lastName": "Rajimwale",
+"age": 30,
+"gender": "M",
+"phoneNumber": "6825610162",
+"zip": "76013"
+}
+
+Status Code 201
+
+
+
+Update
+Pass the requestbody with existing ID which you have received above
+
+Request Body
+
+{
+"id": "7c835373-d03d-473e-8761-b6113c63a0e4",
+"firstName": "Ramesh",
+"middleName": "R",
+"lastName": "Raj",
+"age": 30,
+"gender": "F",
+"phoneNumber": "6825610162",
+"zip": "76013"
+}
+
+Method- Patch
+
+Response
+
+{
+"message": "Record Updated",
+"type": "SUCCESS"
+}
+
+Status 201
+
+3
+Get All Users
+
+Request URL
+http://localhost:8080/getAllUsers
+
+Method Get
+
+Status 200
+
+
+
+
