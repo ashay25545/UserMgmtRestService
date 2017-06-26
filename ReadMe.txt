@@ -26,9 +26,8 @@ Source Code
     UserServiceImpl
     UserService interface impl
 
-7 UsermanagementApplication
-    Config Class
 7 Config File
+    UsermanagementApplication
 
 
 Junit Test Cases
